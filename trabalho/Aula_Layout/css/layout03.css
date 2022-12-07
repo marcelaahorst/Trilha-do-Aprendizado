@@ -1,0 +1,74 @@
+  body{
+    background: linear-gradient(to right, pink, lightblue);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: 1px 1px 20px whitesmoke;
+    background: linear-gradient(to right, rgba(105, 213, 255, 0.479), pink);
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+}
+
+
+
+.logo img{
+    width: 45%;
+
+    padding-top: 30px;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{ /*estilização dos hiperlinks*/
+    float: right; /*disposição dos hiperlinks a direita*/
+
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(138, 198, 255);
+
+    text-decoration: none; /*elimina o sublinhado*/
+
+    padding: 10px;
+}
+
+.principal{
+    float: left;
+
+    background: linear-gradient(to right, rgba(105, 213, 255, 0.479), pink);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ffffff98;
+
+    text-align: justify; 
+
+    margin: 15px 2px 25px 2px;
+
+    padding: 15px;
+}
+
+.rodape{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(138, 198, 255);
+    font-size: 10px;
+    text-align: center;
+
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){ /*responsividade - alteração do layout de acordo com o tamanho de tela*/
+    
+    body, .principal, .conteudo{ /*define os escopos que serão alterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE05_Marcela_Mores_Horst</title>
+</head>
+<body>
+    <h1> Como utilizar os Hiperlinks ou Links </h1>
+    <h3> O que é um Hiperlink/Link? </h3>
+    <p> Hiperlinks, de forma resumida, são as referências dentro de um documento para outras partes do mesmo documento, outros documentos, arquivos ou endereço eletrônico. </p>
+    <p> Podem ser remotos, internos, locais, com endereço de correio ou arquivo.</p>
+
+    <h3> Marcação </h3>
+    <p> A <u> tag </u> para marcação de hiperlinks é: &lt a &gt propriedade <i> href </i> que faz a referência para ao conteúdo desejado. </p>
+
+    <p> Assim, a sintaxe completa fica: &lt a href="endereço" &gt Conteúdo Referenciado Clicável &lt /a &gt </p>
+
+    <h3> Hiperlinks Externos ou Remotos </h3>
+        <p> Para utilizar os Links que referenciam outros sites ou páginas da web, basta adicionar na propriedade href utilizamos a URL para a referência que deseja.</p>
+
+        <p> <u> Exemplo: </u> <a href="https://irati.ifpr.edu.br/?msclkid=4b754342d08611ecbc70a38a26356d94" > IFPR </a> </p>
+        <p> Para isso fazemos: &lt a href="https://irati.ifpr.edu.br/?msclkid=4b754342d08611ecbc70a38a26356d94"    &gt  IFPR &lt /a &gt </p>
+
+     <a name="EX01"></a> <h3> Hiperlinks Internos </h3> 
+        <p> Os Hiperlinks Internos são links que apontam a um lugar diferente dentro da mesma página. Para isso, podermos fazer de duas formas: </p> 
+
+        <ol>
+        <li> (no local Clicável) &lt a href="#referencia" &gt Conteúdo Referenciado &lt /a &gt </li>
+        <p> (no texto a ser direcionado) &lt a name="referencia" &gt &lt /a &gt  </p>
+
+        <li> &lt a href="#referencia" &gt Conteúdo Referenciado &lt /a &gt</li>
+        <p> tag id="referencia " &gt </p>
+        </ol>
+    
+        <p><u>Exemplo:</u> <a href="EX01"> Hiperlinks Internos </a> </p>
+
+
+     <h3> Hiperlinks Locais </h3>
+        <p> São links que apontam para outros páginas dentro de um mesmo site. Para isso usamos na sintaxe: </p> 
+        <p> &lt a href=“arquivo.html” &gt Conteúdo Referenciado &lt /a &gt </p> 
+
+     <h3> Hiperlink em Imagem </h3> 
+        <p> Envolvendo a tag de imagem com a tag de hiperlink é possível criar hiperlinks imagens. </p>
+        <p> &lt a href=“referencia” &gt &lt img src="imagem.jpg"&gt &lt /a &gt </p>
+
+     <h3> Hyperlinks para endereço eletrônico </h3>
+        <p> São aqueles que apontam para um endereço eletrônico </p>
+        <p><u> Exemplo: </u></p>
+        <a href= "mailto:marcelamhorst.if@gmail.com" > gmail@gmail.com</a>
+        <p> Para isso a sintaxe é: </p>
+        <p> &lt a href= "mailto: gmail@gmail.com" &gt gmail@gmail.com &lt /a &gt </p>
+
+
+    
+
+</body>
+</html>

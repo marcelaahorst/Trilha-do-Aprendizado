@@ -1,0 +1,10 @@
+.a{
+    margin: 1500;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}

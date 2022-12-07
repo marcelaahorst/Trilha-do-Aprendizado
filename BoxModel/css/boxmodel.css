@@ -1,0 +1,28 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*margin: 100px; - aplica aos 4 lados*/
+
+    /*border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-right-color: aquamarine;*/
+
+    border: solid lightslategray;
+
+    padding: 20px;
+
+    /*margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    margin-left: 50px;*/
+
+    margin: 100px 80px; /*aplica direita e esquerda*/
+
+}
+
+h1{
+
+    background-color: cornflowerblue;
+}
